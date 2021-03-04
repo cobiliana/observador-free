@@ -6,7 +6,11 @@
     "content_scripts": [
         {
           "matches": ["https://*.observador.pt/*"],
-          "js": ["content.js"]
+          "js": ["content.js"],
+          "run_at": "document_end"
         }
-    ]
+    ],
+    "icons": {
+       "48": "icon.png" 
+    }
   }
