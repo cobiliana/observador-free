@@ -1,0 +1,12 @@
+{
+    "name": "Observador Free",
+    "version": "1.0.0",
+    "description": "Extensão para desbloquear os artigos pagos do observador.",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+          "matches": ["https://*.observador.pt/*"],
+          "js": ["content.js"]
+        }
+    ]
+  }
